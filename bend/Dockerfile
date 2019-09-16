@@ -6,6 +6,8 @@ COPY .babelrc ./
 COPY .env ./
 COPY package.json ./
 COPY simple_express.js ./
+COPY . /home/app
+
 RUN npm install
 
 # COPY * ./
